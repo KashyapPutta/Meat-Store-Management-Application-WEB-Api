@@ -133,6 +133,7 @@
     <Compile Include="Controllers\MeatRatesController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
+    <Compile Include="Controllers\VendorsController.cs" />
     <Compile Include="DTO%27s\OrderDTO.cs" />
     <Compile Include="DTO%27s\TransactionsDTO.cs" />
     <Compile Include="Global.asax.cs">
@@ -158,6 +159,14 @@
     <Compile Include="Migrations\201807072125452_AddTransactionsTable.Designer.cs">
       <DependentUpon>201807072125452_AddTransactionsTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807081747478_AddVendorTable.cs" />
+    <Compile Include="Migrations\201807081747478_AddVendorTable.Designer.cs">
+      <DependentUpon>201807081747478_AddVendorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807081750322_AddDataToVendorTable.cs" />
+    <Compile Include="Migrations\201807081750322_AddDataToVendorTable.Designer.cs">
+      <DependentUpon>201807081750322_AddDataToVendorTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\Order.cs" />
@@ -165,6 +174,7 @@
     <Compile Include="Models\MeatRates.cs" />
     <Compile Include="Models\MeatStoreWithWebAPIContext.cs" />
     <Compile Include="Models\Transactions.cs" />
+    <Compile Include="Models\Vendor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -195,6 +205,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807072125452_AddTransactionsTable.resx">
       <DependentUpon>201807072125452_AddTransactionsTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807081747478_AddVendorTable.resx">
+      <DependentUpon>201807081747478_AddVendorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807081750322_AddDataToVendorTable.resx">
+      <DependentUpon>201807081750322_AddDataToVendorTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
