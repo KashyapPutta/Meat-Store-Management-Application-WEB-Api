@@ -128,12 +128,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\ConsignmentsController.cs" />
     <Compile Include="Controllers\InventoriesController.cs" />
     <Compile Include="Controllers\MeatKindsController.cs" />
     <Compile Include="Controllers\MeatRatesController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
     <Compile Include="Controllers\TransactionsController.cs" />
     <Compile Include="Controllers\VendorsController.cs" />
+    <Compile Include="DTO%27s\ConsignmentDTO.cs" />
     <Compile Include="DTO%27s\OrderDTO.cs" />
     <Compile Include="DTO%27s\TransactionsDTO.cs" />
     <Compile Include="Global.asax.cs">
@@ -167,7 +169,24 @@
     <Compile Include="Migrations\201807081750322_AddDataToVendorTable.Designer.cs">
       <DependentUpon>201807081750322_AddDataToVendorTable.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807081948416_AddConsignmentTables.cs" />
+    <Compile Include="Migrations\201807081948416_AddConsignmentTables.Designer.cs">
+      <DependentUpon>201807081948416_AddConsignmentTables.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807081957190_TemporaryRemovalOfInventorytableAndItsModel.cs" />
+    <Compile Include="Migrations\201807081957190_TemporaryRemovalOfInventorytableAndItsModel.Designer.cs">
+      <DependentUpon>201807081957190_TemporaryRemovalOfInventorytableAndItsModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807082004387_AddingBackInventoryTableAndItsModel.cs" />
+    <Compile Include="Migrations\201807082004387_AddingBackInventoryTableAndItsModel.Designer.cs">
+      <DependentUpon>201807082004387_AddingBackInventoryTableAndItsModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201807082006032_AddDataToInventoryTable.cs" />
+    <Compile Include="Migrations\201807082006032_AddDataToInventoryTable.Designer.cs">
+      <DependentUpon>201807082006032_AddDataToInventoryTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Consignment.cs" />
     <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\MeatKind.cs" />
@@ -211,6 +230,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807081750322_AddDataToVendorTable.resx">
       <DependentUpon>201807081750322_AddDataToVendorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807081948416_AddConsignmentTables.resx">
+      <DependentUpon>201807081948416_AddConsignmentTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807081957190_TemporaryRemovalOfInventorytableAndItsModel.resx">
+      <DependentUpon>201807081957190_TemporaryRemovalOfInventorytableAndItsModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807082004387_AddingBackInventoryTableAndItsModel.resx">
+      <DependentUpon>201807082004387_AddingBackInventoryTableAndItsModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807082006032_AddDataToInventoryTable.resx">
+      <DependentUpon>201807082006032_AddDataToInventoryTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

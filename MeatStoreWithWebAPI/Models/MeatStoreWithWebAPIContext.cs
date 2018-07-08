@@ -28,5 +28,7 @@ namespace MeatStoreWithWebAPI.Models
         public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.Inventory> Inventories { get; set; }
 
         public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.Vendor> Vendors { get; set; }
+
+        public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.Consignment> Consignments { get; set; }
     }
 }
