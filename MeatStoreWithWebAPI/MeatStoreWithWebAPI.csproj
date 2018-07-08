@@ -128,6 +128,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\InventoriesController.cs" />
     <Compile Include="Controllers\MeatKindsController.cs" />
     <Compile Include="Controllers\MeatRatesController.cs" />
     <Compile Include="Controllers\OrdersController.cs" />
@@ -158,6 +159,7 @@
       <DependentUpon>201807072125452_AddTransactionsTable.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Inventory.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\MeatKind.cs" />
     <Compile Include="Models\MeatRates.cs" />

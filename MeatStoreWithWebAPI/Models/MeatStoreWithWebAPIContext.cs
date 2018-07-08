@@ -24,5 +24,7 @@ namespace MeatStoreWithWebAPI.Models
         public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.MeatRates> MeatRates { get; set; }
 
         public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.Transactions> Transactions { get; set; }
+
+        public System.Data.Entity.DbSet<MeatStoreWithWebAPI.Models.Inventory> Inventories { get; set; }
     }
 }
